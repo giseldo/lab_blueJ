@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=class\ Rabbit
+comment0.text=\nA\ simple\ model\ of\ a\ rabbit.\nRabbits\ age,\ move,\ breed,\ and\ die.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2002-04-11\n\n
+comment1.target=MAX_LITTER_SIZE
+comment10.params=randomAge
+comment10.target=Rabbit(boolean)
+comment10.text=\nCreate\ a\ new\ rabbit.\ A\ rabbit\ may\ be\ created\ with\ age\nzero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\n@param\ randomAge\ If\ true,\ the\ rabbit\ will\ have\ a\ random\ age.\n\n
+comment11.target=BREEDING_AGE
+comment2.params=
+comment2.target=String\ toString()
+comment2.text=\n@return\ A\ string\ representation\ of\ the\ rabbit.\n\n
+comment3.params=
+comment3.target=void\ incrementAge()
+comment3.text=\nIncrease\ the\ age.\nThis\ could\ result\ in\ the\ rabbit's\ death.\n\n
+comment4.params=
+comment4.target=int\ breed()
+comment4.text=\nGenerate\ a\ number\ representing\ the\ number\ of\ births,\nif\ it\ can\ breed.\n@return\ The\ number\ of\ births\ (may\ be\ zero).\n\n
+comment5.params=
+comment5.target=boolean\ canBreed()
+comment5.text=\nA\ rabbit\ can\ breed\ if\ it\ has\ reached\ the\ breeding\ age.\n\n
+comment6.target=MAX_AGE
+comment7.params=currentField\ updatedField\ newAnimals
+comment7.target=void\ act(Field,Field,List)
+comment7.text=\nThis\ is\ what\ the\ rabbit\ does\ most\ of\ the\ time\ -\ it\ runs\ \naround.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age.\n\n
+comment8.target=rand
+comment9.target=BREEDING_PROBABILITY
+numComments=12

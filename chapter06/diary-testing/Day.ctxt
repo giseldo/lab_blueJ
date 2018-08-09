@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=class\ Day
+comment0.text=\nMaintain\ the\ appointments\ for\ one\ day\ in\ a\ diary.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2001.09.14\n\n
+comment1.target=MAX_APPOINTMENTS_PER_DAY
+comment10.target=dayNumber
+comment2.params=time\ appointment
+comment2.target=boolean\ makeAppointment(int,Appointment)
+comment2.text=\nMake\ an\ appointment.\n@param\ time\ The\ hour\ at\ which\ the\ appointment\ starts.\n@param\ appointment\ The\ appointment\ to\ be\ made.\n@return\ true\ if\ the\ appointment\ was\ successful,\nfalse\ otherwise.\n\n
+comment3.params=
+comment3.target=void\ showAppointments()
+comment3.text=\nPrint\ a\ list\ of\ the\ day's\ appointments\ on\ standard\ output.\n\n
+comment4.params=
+comment4.target=int\ getDayNumber()
+comment4.text=\n@return\ The\ number\ of\ this\ day\ within\ the\ year\ (1\ -\ 366).\n\n
+comment5.params=appointment
+comment5.target=int\ findSpace(Appointment)
+comment5.text=\nTry\ to\ find\ space\ for\ an\ appointment.\n@param\ appointment\ The\ appointment\ to\ be\ accommodated.\n@return\ The\ earliest\ time\ today\ that\ can\ accommodate\nthe\ appointment.\ Return\ -1\ if\ there\ is\ \ninsufficient\ space.\n\n
+comment6.target=appointments
+comment7.params=dayNumber
+comment7.target=Day(int)
+comment7.text=\nConstructor\ for\ objects\ of\ class\ Day.\n@param\ dayNumber\ The\ number\ of\ this\ day\ in\ the\ year\ (1-366).\n\n
+comment8.target=FINAL_APPOINTMENT_TIME
+comment9.target=START_OF_DAY
+numComments=11

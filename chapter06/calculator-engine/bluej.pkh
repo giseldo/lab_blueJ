@@ -1,0 +1,24 @@
+#BlueJ package file
+dependency1.from=CalcEngineTester
+dependency1.to=CalcEngine
+dependency1.type=UsesDependency
+package.editor.height=320
+package.editor.width=460
+package.editor.x=37
+package.editor.y=55
+package.numDependencies=1
+package.numTargets=2
+target1.height=50
+target1.modifiers=0
+target1.name=CalcEngineTester
+target1.type=ClassTarget
+target1.width=120
+target1.x=90
+target1.y=20
+target2.height=50
+target2.modifiers=0
+target2.name=CalcEngine
+target2.type=ClassTarget
+target2.width=100
+target2.x=170
+target2.y=120

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=class\ OutlineTesting
+comment0.text=\nImplement\ some\ testing\ of\ the\ outline\ project.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2002.07.01\n\n
+comment1.params=
+comment1.target=void\ runTests()
+comment1.text=\nRun\ a\ set\ of\ tests,\ and\ report\ any\ failures.\n\n
+comment2.params=
+comment2.target=boolean\ sourcePickupTest()
+comment2.text=\nRequest\ the\ passenger\ source\ to\ generate\ a\ new\ passenger\nand\ find\ a\ pickup\ for\ it.\n@return\ true\ if\ the\ request\ succeeds,\ false\ otherwise.\n\n
+comment3.params=
+comment3.target=OutlineTesting()
+comment3.text=\n\n
+comment4.params=
+comment4.target=boolean\ taxiPickupTest()
+comment4.text=\nTest\ that\ the\ following\ basic\ sequence\ is\ correct\:\nA\ newly\ created\ taxi\ is\ free.\nA\ taxi\ ceases\ to\ be\ free\ when\ it\ picks\ up\ a\ passenger.\nA\ taxi\ becomes\ free\ when\ it\ has\ offloaded\ a\ passenger.\n@return\ true\ if\ the\ test\ is\ passed,\ false\ otherwise.\n\n
+comment5.params=
+comment5.target=boolean\ passengerCreationTest()
+comment5.text=\nCheck\ basic\ passenger\ functionality.\ Ensure\ that\na\ passenger\ returns\ the\ correct\ pickup\ and\ destination\nlocations.\n@return\ true\ if\ the\ test\ is\ passed,\ false\ otherwise.\n\n
+numComments=6

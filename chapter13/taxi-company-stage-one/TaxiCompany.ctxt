@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=class\ TaxiCompany
+comment0.text=\nModel\ the\ operation\ of\ a\ taxi\ company,\ operating\ different\ntypes\ of\ vehicle.\ This\ version\ operates\ a\ single\ taxi.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2002.07.02\n\n
+comment1.params=vehicle
+comment1.target=void\ arrivedAtPickup(Vehicle)
+comment1.text=\nA\ vehicle\ has\ arrived\ at\ a\ pickup\ point.\n@param\ The\ vehicle\ at\ the\ pickup\ point.\n@throws\ MissingPassengerException\ If\ there\ is\ no\ passenger\ waiting.\n\n
+comment2.params=passenger
+comment2.target=boolean\ requestPickup(Passenger)
+comment2.text=\nRequest\ a\ pickup\ for\ the\ given\ passenger.\n@param\ passenger\ The\ passenger\ requesting\ a\ pickup.\n@return\ Whether\ a\ free\ vehicle\ is\ available.\n\n
+comment3.target=assignments
+comment4.target=vehicles
+comment5.params=vehicle\ passenger
+comment5.target=void\ arrivedAtDestination(Vehicle,Passenger)
+comment5.text=\nA\ vehicle\ has\ arrived\ at\ a\ passenger's\ destination.\n@param\ The\ vehicle\ at\ the\ destination.\n@param\ The\ passenger\ being\ dropped\ off.\n\n
+comment6.params=
+comment6.target=TaxiCompany()
+comment6.text=\nConstructor\ for\ objects\ of\ class\ TaxiCompany\n\n
+comment7.params=
+comment7.target=Vehicle\ scheduleVehicle()
+comment7.text=\nFind\ a\ free\ vehicle,\ if\ any.\n@return\ A\ free\ vehicle,\ or\ null\ if\ there\ is\ none.\n\n
+comment8.params=
+comment8.target=List\ getVehicles()
+comment8.text=\n@return\ The\ list\ of\ vehicles.\n\n
+numComments=9

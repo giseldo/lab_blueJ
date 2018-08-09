@@ -1,0 +1,24 @@
+#BlueJ package file
+dependency1.from=Palette
+dependency1.to=Brick
+dependency1.type=UsesDependency
+package.editor.height=300
+package.editor.width=420
+package.editor.x=970
+package.editor.y=132
+package.numDependencies=1
+package.numTargets=2
+target1.height=50
+target1.modifiers=0
+target1.name=Brick
+target1.type=ClassTarget
+target1.width=80
+target1.x=150
+target1.y=150
+target2.height=50
+target2.modifiers=0
+target2.name=Palette
+target2.type=ClassTarget
+target2.width=80
+target2.x=50
+target2.y=80

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=class\ Database
+comment0.text=\nThe\ database\ class\ provides\ a\ facility\ to\ store\ CD\ and\ video\ \nobjects.\ A\ list\ of\ all\ CDs\ and\ videos\ can\ be\ printed\ to\ the\nterminal.\n\nThis\ version\ does\ not\ save\ the\ data\ to\ disk,\ and\ it\ does\ not\nprovide\ any\ search\ functions.\n\n@author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n@version\ 2002-05-04\n\n
+comment1.target=items
+comment2.params=
+comment2.target=void\ list()
+comment2.text=\nPrint\ a\ list\ of\ all\ currently\ stored\ CDs\ and\ videos\ to\ the\ntext\ terminal.\n\n
+comment3.params=
+comment3.target=Database()
+comment3.text=\nConstruct\ an\ empty\ Database.\n\n
+comment4.params=theItem
+comment4.target=void\ addItem(Item)
+comment4.text=\nAdd\ an\ item\ to\ the\ database.\n\n
+numComments=5

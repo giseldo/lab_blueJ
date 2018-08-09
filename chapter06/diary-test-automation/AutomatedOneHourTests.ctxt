@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=class\ AutomatedOneHourTests
+comment0.text=\nPerform\ tests\ of\ the\ Day\ class\ that\ involve\nmaking\ single-hour\ appointments.\ Automate\ these\ntests\ as\ far\ as\ possible.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling.\ \n@version\ 2001.09.18\n\n
+comment1.target=day
+comment2.params=
+comment2.target=boolean\ runAllTests()
+comment2.text=\nRun\ each\ test\ and\ check\ the\ result.\ If\ any\ result\ indicates\na\ possible\ problem,\ print\ an\ error\ message.\n@return\ Whether\ all\ tests\ passed.\n\n
+comment3.params=
+comment3.target=boolean\ fillTheDay()
+comment3.text=\nTest\ basic\ functionality\ by\ filling\ a\ complete\nday\ with\ appointments.\n@return\ true\ if\ the\ test\ was\ successful,\ false\ otherwise.\n\n
+comment4.params=
+comment4.target=AutomatedOneHourTests()
+comment4.text=\nConstructor\ for\ objects\ of\ class\ OneHourTests\n\n
+comment5.params=
+comment5.target=boolean\ testDoubleBooking()
+comment5.text=\nCheck\ that\ double-booking\ is\ not\ permitted.\n@return\ true\ if\ the\ test\ was\ successful,\ false\ otherwise.\n\n
+comment6.params=
+comment6.target=boolean\ makeThreeAppointments()
+comment6.text=\nTest\ basic\ functionality\ by\ booking\ at\ either\ end\nof\ a\ day,\ and\ in\ the\ middle.\n@return\ true\ if\ the\ test\ was\ successful,\ false\ otherwise.\n\n
+numComments=7

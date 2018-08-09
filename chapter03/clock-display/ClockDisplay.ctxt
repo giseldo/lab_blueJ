@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=class\ ClockDisplay
+comment0.text=\nThe\ ClockDisplay\ class\ implements\ a\ digital\ clock\ display\ for\ a\nEuropean-style\ 24\ hour\ clock.\ The\ clock\ shows\ hours\ and\ minutes.\ The\ \nrange\ of\ the\ clock\ is\ 00\:00\ (midnight)\ to\ 23\:59\ (one\ minute\ before\ \nmidnight).\n\nThe\ clock\ display\ receives\ "ticks"\ (via\ the\ timeTick\ method)\ every\ minute\nand\ reacts\ by\ incrementing\ the\ display.\ This\ is\ done\ in\ the\ usual\ clock\nfashion\:\ the\ hour\ increments\ when\ the\ minutes\ roll\ over\ to\ zero.\n\n@author\ Michael\ Kolling\ and\ David\ J.\ Barnes\n@version\ 2001.05.26\n\n
+comment1.params=
+comment1.target=String\ getTime()
+comment1.text=\nReturn\ the\ current\ time\ of\ this\ display\ in\ the\ format\ HH\:MM.\n\n
+comment2.target=hours
+comment3.params=hour\ minute
+comment3.target=void\ setTime(int,int)
+comment3.text=\nSet\ the\ time\ of\ the\ display\ to\ the\ specified\ hour\ and\nminute.\n\n
+comment4.target=minutes
+comment5.params=
+comment5.target=void\ timeTick()
+comment5.text=\nThis\ method\ should\ get\ called\ once\ every\ minute\ -\ it\ makes\nthe\ clock\ display\ go\ one\ minute\ forward.\n\n
+comment6.params=
+comment6.target=ClockDisplay()
+comment6.text=\nConstructor\ for\ ClockDisplay\ objects.\ This\ constructor\ \ncreates\ a\ new\ clock\ set\ at\ 00\:00.\n\n
+comment7.params=hour\ minute
+comment7.target=ClockDisplay(int,int)
+comment7.text=\nConstructor\ for\ ClockDisplay\ objects.\ This\ constructor\ncreates\ a\ new\ clock\ set\ at\ the\ time\ specified\ by\ the\ \nparameters.\n\n
+comment8.target=displayString
+comment9.params=
+comment9.target=void\ updateDisplay()
+comment9.text=\nUpdate\ the\ internal\ string\ that\ represents\ the\ display.\n\n
+numComments=10

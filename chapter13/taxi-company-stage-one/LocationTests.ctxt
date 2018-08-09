@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=class\ LocationTests
+comment0.text=\nTest\ implementation\ of\ the\ Location\ class.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n@version\ 2002.07.02\n\n
+comment1.params=
+comment1.target=LocationTests()
+comment1.text=\nConstructor\ for\ objects\ of\ class\ LocationTests\n\n
+comment2.params=
+comment2.target=boolean\ runNextLocationTests()
+comment2.text=\nRun\ tests\ of\ the\ nextLocation\ method\ of\ the\ Location\ class.\n@return\ true\ if\ all\ tests\ pass,\ false\ otherwise.\n\n
+comment3.params=
+comment3.target=boolean\ runDistanceTests()
+comment3.text=\nTest\ the\ distance\ method\ of\ the\ Location\ class.\n@return\ true\ if\ all\ tests\ pass,\ false\ otherwise.\n\n
+numComments=4

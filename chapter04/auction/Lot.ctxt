@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=class\ Lot
+comment0.text=\nA\ class\ to\ model\ an\ item\ (or\ set\ of\ items)\ in\ an\nauction\:\ a\ lot.\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling.\n@version\ 2001.06.08\n\n
+comment1.params=highestBid
+comment1.target=void\ setHighestBid(Bid)
+comment1.text=\n@param\ highestBid\ The\ new\ highest\ bid.\n\n
+comment2.target=number
+comment3.target=highestBid
+comment4.params=bidder\ value
+comment4.target=void\ bidFor(Person,long)
+comment4.text=\nAttempt\ to\ bid\ for\ this\ lot.\ A\ successful\ bid\nmust\ have\ a\ value\ higher\ than\ any\ existing\ bid.\n@param\ bidder\ Who\ is\ bidding.\n@param\ value\ The\ value\ of\ the\ bid.\n\n
+comment5.params=
+comment5.target=Bid\ getHighestBid()
+comment5.text=\n@return\ The\ highest\ bid\ for\ this\ lot.\ This\ could\ be\ null\ if\nthere\ are\ no\ current\ bids.\n\n
+comment6.params=
+comment6.target=String\ getDescription()
+comment6.text=\n@return\ The\ lot's\ description.\n\n
+comment7.params=number\ description
+comment7.target=Lot(int,String)
+comment7.text=\nConstruct\ a\ Lot,\ setting\ its\ number\ and\ description.\n@param\ number\ The\ lot\ number.\n@param\ description\ A\ description\ of\ this\ lot.\n\n
+comment8.target=description
+comment9.params=
+comment9.target=int\ getNumber()
+comment9.text=\n@return\ The\ lot's\ number.\n\n
+numComments=10

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=class\ Calculator
+comment0.text=\nThe\ main\ class\ of\ a\ simple\ calculator.\ Create\ one\ of\ these\ and\ you'll\nget\ the\ calculator\ on\ screen.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 31\ July\ 2000\n\n
+comment1.params=
+comment1.target=void\ show()
+comment1.text=\nIn\ case\ the\ window\ was\ closed,\ show\ it\ again.\n\n
+comment2.target=gui
+comment3.params=
+comment3.target=Calculator()
+comment3.text=\nCreate\ a\ new\ calculator\ and\ show\ it.\n\n
+comment4.target=engine
+numComments=5

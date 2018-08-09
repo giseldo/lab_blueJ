@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=class\ Video
+comment0.text=\nThe\ Video\ class\ represents\ a\ video\ object.\ Information\ about\ the\ \nvideo\ is\ stored\ and\ can\ be\ retrieved.\n\n@author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n@version\ 2002-05-04\n\n
+comment1.params=theTitle\ theDirector\ time
+comment1.target=Video(String,String,int)
+comment1.text=\nConstructor\ for\ objects\ of\ class\ Video\n\n
+comment2.target=director
+comment3.params=
+comment3.target=String\ getDirector()
+comment3.text=\nReturn\ the\ director\ for\ this\ video.\n\n
+numComments=4

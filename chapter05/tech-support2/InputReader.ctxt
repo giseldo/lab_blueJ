@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=class\ InputReader
+comment0.text=\nClass\ InputReader\ reads\ typed\ text\ input\ from\ the\ standard\ text\ terminal.\ The\ text\ntyped\ by\ a\ user\ is\ then\ chopped\ into\ words,\ and\ a\ set\ of\ words\ is\ provided.\n\n@author\ \ \ \ \ Michael\ Kolling\ and\ David\ J.\ Barnes\n@version\ \ \ \ 0.1\ \ (1.Feb.2002)\n\n
+comment1.target=reader
+comment2.params=
+comment2.target=String\ readInputLine()
+comment2.text=\nRead\ one\ line\ of\ input\ and\ return\ it\ as\ a\ String.\ \n\n@return\ \ A\ Strings\ representing\ the\ input,\ or\ an\ empty\ String\ if\ an\ error\ occurs.\n\n
+comment3.params=
+comment3.target=String\ getInput()
+comment3.text=\nRead\ a\ line\ of\ text\ from\ standard\ input\ (the\ text\ terminal),\ and\nreturn\ it\ as\ a\ set\ of\ words.\n\n@return\ \ A\ set\ of\ Strings,\ where\ each\ String\ is\ one\ of\ the\ words\ntyped\ by\ the\ user\n\n
+comment4.params=
+comment4.target=InputReader()
+comment4.text=\nCreate\ a\ new\ InputReader\ that\ reads\ text\ from\ the\ text\ terminal.\n\n
+numComments=5

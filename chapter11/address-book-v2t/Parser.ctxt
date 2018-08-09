@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=class\ Parser
+comment0.text=A\ class\ that\ reads\ input\ lines\ from\ the\ user.\nInput\ is\ filtered\ via\ getCommand\ for\ valid\ commands.\n\n@author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\n@version\ 2002.06.11\n\n
+comment1.target=commands
+comment2.params=
+comment2.target=void\ showCommands()
+comment2.text=\nPrint\ out\ a\ list\ of\ valid\ command\ words.\n\n
+comment3.params=
+comment3.target=String\ readLine()
+comment3.text=\nTry\ to\ read\ a\ single\ line\ from\ the\ user.\nReturn\ a\ blank\ line\ on\ any\ input\ error.\n@return\ The\ line.\n\n
+comment4.params=
+comment4.target=Parser()
+comment5.params=
+comment5.target=String\ getCommand()
+comment5.text=\nRead\ the\ next\ command\ from\ the\ user.\nThe\ returned\ command\ will\ be\ valid.\n@return\ A\ valid\ command.\n\n
+numComments=6

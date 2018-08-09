@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=class\ Demo
+comment0.text=\nProvide\ a\ simple\ demonstration\ of\ running\ a\ stage-one\nscenario.\ A\ single\ passenger\ is\ created,\ and\ a\ pickup\nrequested.\ As\ the\ simulation\ is\ run,\ the\ passenger\nshould\ be\ picked\ up\ and\ then\ taken\ to\ their\ destination.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2002.07.02\n\n
+comment1.params=
+comment1.target=Demo()
+comment1.text=\nConstructor\ for\ objects\ of\ class\ Demo\n\n
+comment2.params=
+comment2.target=void\ reset()
+comment2.text=\nReset\ the\ demo\ to\ a\ starting\ point.\nA\ single\ taxi\ is\ created,\ and\ a\ pickup\ is\nrequested\ for\ a\ single\ passenger.\n@throws\ IllegalStateException\ If\ a\ pickup\ cannot\ be\ found\n\n
+comment3.params=
+comment3.target=void\ step()
+comment3.text=\nRun\ the\ demo\ for\ one\ step\ by\ requesting\nall\ actors\ to\ act.\n\n
+comment4.target=actors
+comment5.params=
+comment5.target=void\ run()
+comment5.text=\nRun\ the\ demo\ for\ a\ fixed\ number\ of\ steps.\n\n
+numComments=6

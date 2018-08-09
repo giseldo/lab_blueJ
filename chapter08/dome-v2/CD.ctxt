@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=class\ CD
+comment0.text=\nThe\ CD\ class\ represents\ a\ CD\ object.\ Information\ about\ the\ \nCD\ is\ stored\ and\ can\ be\ retrieved.\n\n@author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n@version\ 2002-05-04\n\n
+comment1.target=artist
+comment2.target=numberOfTracks
+comment3.params=
+comment3.target=String\ getArtist()
+comment3.text=\nReturn\ the\ artist\ for\ this\ CD.\n\n
+comment4.params=
+comment4.target=int\ getNumberOfTracks()
+comment4.text=\nReturn\ the\ number\ of\ tracks\ on\ this\ CD.\n\n
+comment5.params=theTitle\ theArtist\ tracks\ time
+comment5.target=CD(String,String,int,int)
+comment5.text=\nConstructor\ for\ objects\ of\ class\ CD\n\n
+numComments=6

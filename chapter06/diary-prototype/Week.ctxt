@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=class\ Week
+comment0.text=\nRepresent\ a\ week's\ worth\ of\ Days.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2001.09.14\n\n
+comment1.target=weekNumber
+comment2.params=dayInWeek
+comment2.target=Day\ getDay(int)
+comment2.text=\n@param\ dayInWeek\ Which\ day\ (1..BOOKABLE_DAYS_PER_WEEK).\n@return\ The\ Day\ representing\ that\ day\ number,\ or\ null\ if\ndayInWeek\ is\ out\ of\ range.\n\n
+comment3.params=
+comment3.target=void\ showAppointments()
+comment3.text=\nPrint\ a\ list\ of\ appointments\ for\ this\ week\ on\ standard\ output.\n\n
+comment4.params=weekNumber
+comment4.target=Week(int)
+comment4.text=\nConstructor\ for\ objects\ of\ class\ Week.\n@param\ weekNumber\ The\ week\ number\ (0-52).\n\n
+comment5.params=
+comment5.target=int\ getWeekNumber()
+comment5.text=\n@return\ The\ week\ number\ (0-52).\n\n
+comment6.target=BOOKABLE_DAYS_PER_WEEK
+comment7.target=days
+numComments=8

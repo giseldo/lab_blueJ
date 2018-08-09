@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=class\ Location
+comment0.text=\nModel\ a\ location\ in\ a\ city.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2002.07.02\n\n
+comment1.params=destination
+comment1.target=int\ distance(Location)
+comment1.text=\nDetermine\ the\ number\ of\ movements\ required\ to\ get\nfrom\ here\ to\ the\ destination.\n@param\ destination\ The\ required\ destination.\n@return\ The\ number\ of\ movement\ steps.\n\n
+comment2.params=destination
+comment2.target=Location\ nextLocation(Location)
+comment2.text=\nGenerate\ the\ next\ location\ to\ visit\ in\ order\ to\nreach\ the\ destination.\n@param\ destination\ Where\ we\ want\ to\ get\ to.\n@return\ A\ location\ in\ a\ direct\ line\ from\ this\ to\ndestination.\n\n
+comment3.params=
+comment3.target=String\ toString()
+comment3.text=\n@return\ A\ representation\ of\ the\ location.\n\n
+comment4.params=other
+comment4.target=boolean\ equals(Object)
+comment4.text=\nImplement\ content\ equality\ for\ locations.\n@return\ true\ if\ this\ location\ matches\ the\ other,\nfalse\ otherwise.\n\n
+comment5.params=x\ y
+comment5.target=Location(int,int)
+comment5.text=\nModel\ a\ location\ in\ the\ city.\n@param\ x\ The\ x\ coordinate.\ Must\ be\ positive.\n@param\ y\ The\ y\ coordinate.\ Must\ be\ positive.\n@throws\ IllegalArgumentException\ If\ a\ coordinate\ is\ negative.\n\n
+comment6.target=y
+comment7.target=x
+comment8.params=
+comment8.target=int\ getY()
+comment8.text=\n@return\ The\ y\ coordinate.\n\n
+comment9.params=
+comment9.target=int\ getX()
+comment9.text=\n@return\ The\ x\ coordinate.\n\n
+numComments=10

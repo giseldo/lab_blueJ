@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=class\ CalcEngine
+comment0.text=\nThe\ main\ part\ of\ the\ calculator\ doing\ the\ calculations.\n\n@author\ \ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 0.1\ (incomplete)\n\n
+comment1.params=
+comment1.target=void\ equals()
+comment1.text=\nThe\ '\='\ button\ was\ pressed.\n\n
+comment10.params=
+comment10.target=String\ getAuthor()
+comment10.text=\nReturn\ the\ author\ of\ this\ engine.\ This\ string\ is\ displayed\ as\ it\ is,\nso\ it\ should\ say\ something\ like\ "Written\ by\ H.\ Simpson".\n\n
+comment2.params=number
+comment2.target=void\ numberPressed(int)
+comment2.text=\nA\ number\ button\ was\ pressed.\ Do\ whatever\ you\ have\ to\ do\ to\ handle\ it.\nThe\ number\ value\ of\ the\ button\ is\ given\ as\ a\ parameter.\n\n
+comment3.params=
+comment3.target=String\ getVersion()
+comment3.text=\nReturn\ the\ version\ number\ of\ this\ engine.\ This\ string\ is\ displayed\ as\ \nit\ is,\ so\ it\ should\ say\ something\ like\ "Version\ 1.1".\n\n
+comment4.params=
+comment4.target=void\ minus()
+comment4.text=\nThe\ 'minus'\ button\ was\ pressed.\n\n
+comment5.params=
+comment5.target=int\ getDisplayValue()
+comment5.text=\nReturn\ the\ value\ that\ should\ currently\ be\ displayed\ on\ the\ calculator\ndisplay.\n\n
+comment6.params=
+comment6.target=String\ getTitle()
+comment6.text=\nReturn\ the\ title\ of\ this\ calculation\ engine.\n\n
+comment7.params=
+comment7.target=void\ clear()
+comment7.text=\nThe\ 'C'\ (clear)\ button\ was\ pressed.\n\n
+comment8.params=
+comment8.target=void\ plus()
+comment8.text=\nThe\ 'plus'\ button\ was\ pressed.\ \n\n
+comment9.params=
+comment9.target=CalcEngine()
+comment9.text=\nCreate\ a\ CalcEngine\ instance.\ Initialise\ its\ state\ so\ that\ it\ is\ ready\ \nfor\ use.\n\n
+numComments=11

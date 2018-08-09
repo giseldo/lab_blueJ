@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=class\ Location
+comment0.text=\nRepresent\ a\ location\ in\ a\ rectangular\ grid.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2002-04-09\n\n
+comment1.params=
+comment1.target=int\ getCol()
+comment1.text=\n@return\ The\ column.\n\n
+comment2.params=
+comment2.target=int\ hashCode()
+comment2.text=\nUse\ the\ top\ 16\ bits\ for\ the\ row\ value\ and\ the\ bottom\ for\nthe\ column.\ Except\ for\ very\ big\ grids,\ this\ should\ give\ a\nunique\ hash\ code\ for\ each\ (row,\ col)\ pair.\n\n
+comment3.params=row\ col
+comment3.target=Location(int,int)
+comment3.text=\nRepresent\ a\ row\ and\ column.\n@param\ row\ The\ row.\n@param\ col\ The\ column.\n\n
+comment4.target=col
+comment5.params=obj
+comment5.target=boolean\ equals(Object)
+comment5.text=\nImplement\ content\ equality.\n\n
+comment6.params=
+comment6.target=int\ getRow()
+comment6.text=\n@return\ The\ row.\n\n
+comment7.params=
+comment7.target=String\ toString()
+comment7.text=\nReturn\ a\ string\ of\ the\ form\ row,column\n@return\ A\ string\ representation\ of\ the\ location.\n\n
+comment8.target=row
+numComments=9

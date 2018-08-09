@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=interface\ DrawableItem
+comment0.text=\nAn\ item\ that\ is\ able\ to\ return\ an\ image\ of\ itself.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2002.07.02\n\n
+comment1.params=
+comment1.target=Image\ getImage()
+numComments=2

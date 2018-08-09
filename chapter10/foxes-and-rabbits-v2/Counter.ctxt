@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=class\ Counter
+comment0.text=\nProvide\ a\ counter\ for\ a\ participant\ in\ the\ simulation.\nThis\ includes\ an\ identifying\ string\ and\ a\ count\ of\ how\nmany\ participants\ of\ this\ type\ currently\ exist\ within\ \nthe\ simulation.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2002-04-23\n\n
+comment1.params=
+comment1.target=void\ increment()
+comment1.text=\nIncrement\ the\ current\ count\ by\ one.\n\n
+comment2.params=
+comment2.target=int\ getCount()
+comment2.text=\n@return\ The\ current\ count\ for\ this\ type.\n\n
+comment3.target=name
+comment4.params=
+comment4.target=void\ reset()
+comment4.text=\nReset\ the\ current\ count\ to\ zero.\n\n
+comment5.target=count
+comment6.params=
+comment6.target=String\ getName()
+comment6.text=\n@return\ The\ short\ description\ of\ this\ type.\n\n
+comment7.params=name
+comment7.target=Counter(String)
+comment7.text=\nProvide\ a\ name\ for\ one\ of\ the\ simulation\ types.\n@param\ name\ \ A\ name,\ e.g.\ "Fox".\n\n
+numComments=8

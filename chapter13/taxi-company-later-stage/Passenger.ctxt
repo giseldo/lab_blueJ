@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=class\ Passenger
+comment0.text=\nModel\ a\ passenger\ wishing\ to\ get\ from\ one\nlocation\ to\ another.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2002.06.20\n\n
+comment1.target=pickup
+comment2.params=
+comment2.target=String\ toString()
+comment2.text=\n@return\ A\ string\ representation\ of\ this\ person.\n\n
+comment3.target=image
+comment4.params=
+comment4.target=Location\ getLocation()
+comment4.text=\n@return\ The\ passenger's\ pickup\ location.\n\n
+comment5.params=pickup\ destination
+comment5.target=Passenger(Location,Location)
+comment5.text=\nConstructor\ for\ objects\ of\ class\ Passenger\n@param\ pickup\ The\ pickup\ location,\ must\ not\ be\ null.\n@param\ destination\ The\ destination\ location,\ must\ not\ be\ null.\n@throws\ NullPointerException\ If\ either\ location\ is\ null.\n\n
+comment6.target=destination
+comment7.params=
+comment7.target=Location\ getPickupLocation()
+comment7.text=\n@return\ The\ pickup\ location.\n\n
+comment8.params=
+comment8.target=Location\ getDestination()
+comment8.text=\n@return\ The\ destination\ location.\n\n
+comment9.params=
+comment9.target=Image\ getImage()
+comment9.text=\n@return\ The\ image\ to\ be\ displayed\ on\ a\ GUI.\n\n
+numComments=10

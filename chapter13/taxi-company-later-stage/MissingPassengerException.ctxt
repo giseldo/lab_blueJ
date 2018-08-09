@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=class\ MissingPassengerException
+comment0.text=\nIndicate\ that\ there\ was\ no\ passenger\ at\ a\ pickup\ point.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2002.07.02\n\n
+comment1.target=vehicle
+comment2.params=
+comment2.target=Vehicle\ getVehicle()
+comment2.text=\n@return\ The\ vehicle\ for\ which\ there\ was\ no\ passenger.\n\n
+comment3.params=vehicle
+comment3.target=MissingPassengerException(Vehicle)
+comment3.text=\nConstructor\ for\ objects\ of\ class\ MissingPassengerException.\n@param\ vehicle\ The\ vehicle\ expecting\ a\ passenger.\n\n
+numComments=4
